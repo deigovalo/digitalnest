@@ -11,14 +11,15 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
                     <div className="space-y-4">
                         <Link href="/" className="flex items-center gap-2 group">
-                            <div className="relative h-10 w-40">
+                            <div className="relative h-10 w-10">
                                 <Image
-                                    src="/DIGITALNEST_LOGO&NAME.svg"
+                                    src="/DIGITALNEST_LOGO.svg"
                                     alt="DigitalNest Logo"
                                     fill
-                                    className="object-contain object-left"
+                                    className="object-contain"
                                 />
                             </div>
+                            <span className="font-bold text-xl tracking-tight">DIGITALNEST</span>
                         </Link>
                         <p className="text-muted-foreground text-sm">
                             Transformamos ideas en experiencias digitales excepcionales. Tu socio tecnológico de confianza.

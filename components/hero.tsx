@@ -1,46 +1,40 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, Code, Sparkles } from "lucide-react"
+import { ArrowRight, Code } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
+
 
 export function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 z-0">
+        <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 z-0">
             {/* Background Elements */}
             <div className="absolute inset-0 -z-20">
-                <Image
-                    src="/hero-bg.jpg"
-                    alt="Digital Background"
-                    fill
-                    className="object-cover"
-                    priority
-                />
-                <div className="absolute inset-0 bg-black/60" />
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="object-cover w-full h-full"
+                >
+                    <source src="/hero-bganimado2.mp4" type="video/mp4" />
+                </video>
+
             </div>
-            <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+
             <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-primary/20 opacity-20 blur-[100px]"></div>
 
             <div className="container mx-auto px-4 md:px-6 flex flex-col items-center text-center gap-8">
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-sm font-medium"
-                >
-                    <Sparkles className="w-4 h-4 text-primary" />
-                    <span>Innovación Digital</span>
-                </motion.div>
+
 
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.1 }}
-                    className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight max-w-4xl text-white"
+                    className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight max-w-4xl text-gray-900"
                 >
                     Transformamos tus Ideas en <br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
                         Experiencias Digitales
                     </span>
                 </motion.h1>
@@ -49,7 +43,7 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
-                    className="text-lg md:text-xl text-gray-200 max-w-2xl"
+                    className="text-lg md:text-xl text-gray-700 max-w-2xl"
                 >
                     Desarrollamos soluciones web de alto impacto con las tecnologías más modernas.
                     Next.js, React, TypeScript y Node.js para potenciar tu negocio.
