@@ -93,12 +93,14 @@ export function Portfolio() {
                                             <Link
                                                 href="#"
                                                 className="p-3 bg-white/10 backdrop-blur-md rounded-full hover:bg-primary hover:text-primary-foreground transition-colors border border-white/20"
+                                                aria-label={`Ver demo en vivo de ${project.title}`}
                                             >
                                                 <ExternalLink className="w-5 h-5" />
                                             </Link>
                                             <Link
                                                 href="#"
                                                 className="p-3 bg-white/10 backdrop-blur-md rounded-full hover:bg-primary hover:text-primary-foreground transition-colors border border-white/20"
+                                                aria-label={`Ver código en GitHub de ${project.title}`}
                                             >
                                                 <Github className="w-5 h-5" />
                                             </Link>

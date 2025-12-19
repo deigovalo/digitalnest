@@ -25,16 +25,16 @@ export function Footer() {
                             Transformamos ideas en experiencias digitales excepcionales. Tu socio tecnológico de confianza.
                         </p>
                         <div className="flex gap-4">
-                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Síguenos en Facebook">
                                 <Facebook className="w-5 h-5" />
                             </Link>
-                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Síguenos en Twitter">
                                 <Twitter className="w-5 h-5" />
                             </Link>
-                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Síguenos en Instagram">
                                 <Instagram className="w-5 h-5" />
                             </Link>
-                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Síguenos en LinkedIn">
                                 <Linkedin className="w-5 h-5" />
                             </Link>
                         </div>
