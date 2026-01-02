@@ -9,8 +9,8 @@ export function Contact() {
         <section id="contact" className="py-24 bg-background relative overflow-hidden">
             {/* Background Elements */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-                <div className="absolute -top-[20%] -right-[10%] w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl" />
-                <div className="absolute -bottom-[20%] -left-[10%] w-[500px] h-[500px] bg-purple-500/5 rounded-full blur-3xl" />
+                <div className="absolute -top-[20%] -right-[10%] w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-3xl" />
+                <div className="absolute -bottom-[20%] -left-[10%] w-[500px] h-[500px] bg-cyan-500/5 rounded-full blur-3xl" />
             </div>
 
             <div className="container px-4 md:px-6 mx-auto relative z-10">
@@ -25,7 +25,7 @@ export function Contact() {
                     >
                         <h2 className="text-3xl md:text-5xl font-bold mb-6">
                             Hablemos de tu <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-600">
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
                                 próximo proyecto
                             </span>
                         </h2>
@@ -35,7 +35,7 @@ export function Contact() {
 
                         <div className="space-y-8">
                             <div className="flex items-start gap-4">
-                                <div className="p-3 bg-primary/10 rounded-lg text-primary">
+                                <div className="p-3 bg-cyan-500/10 rounded-lg text-cyan-600">
                                     <Mail className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -44,7 +44,7 @@ export function Contact() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
-                                <div className="p-3 bg-primary/10 rounded-lg text-primary">
+                                <div className="p-3 bg-cyan-500/10 rounded-lg text-cyan-600">
                                     <Phone className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -53,7 +53,7 @@ export function Contact() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
-                                <div className="p-3 bg-primary/10 rounded-lg text-primary">
+                                <div className="p-3 bg-cyan-500/10 rounded-lg text-cyan-600">
                                     <MapPin className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -81,7 +81,7 @@ export function Contact() {
                                     id="name"
                                     type="text"
                                     placeholder="John Doe"
-                                    className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                                    className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 outline-none transition-all"
                                 />
                             </div>
 
@@ -93,7 +93,7 @@ export function Contact() {
                                     id="email"
                                     type="email"
                                     placeholder="john@example.com"
-                                    className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                                    className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 outline-none transition-all"
                                 />
                             </div>
 
@@ -105,7 +105,7 @@ export function Contact() {
                                     id="message"
                                     rows={4}
                                     placeholder="Cuéntanos sobre tu proyecto..."
-                                    className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"
+                                    className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 outline-none transition-all resize-none"
                                 />
                             </div>
 
