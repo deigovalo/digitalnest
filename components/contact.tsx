@@ -8,10 +8,7 @@ export function Contact() {
     return (
         <section id="contact" className="py-24 bg-background relative overflow-hidden">
             {/* Background Elements */}
-            <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-                <div className="absolute -top-[20%] -right-[10%] w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-3xl" />
-                <div className="absolute -bottom-[20%] -left-[10%] w-[500px] h-[500px] bg-cyan-500/5 rounded-full blur-3xl" />
-            </div>
+
 
             <div className="container px-4 md:px-6 mx-auto relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">

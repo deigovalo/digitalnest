@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import { useRef } from "react"
+import { useRef, useState, useEffect } from "react"
 
 const projects = [
     {
@@ -43,8 +43,26 @@ export function Portfolio() {
         target: targetRef,
     })
 
-    // Adjusted for 4 projects + intro + outro
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-69%"])
+    // Responsive scroll range
+    const [scrollRange, setScrollRange] = useState("-69%")
+
+    useEffect(() => {
+        const updateScrollRange = () => {
+            // Mobile: ~500vw total width, viewport 100vw -> needs ~80% scroll
+            // Desktop: ~310vw total width, viewport 100vw -> needs ~68% scroll
+            if (window.innerWidth < 768) {
+                setScrollRange("-82%")
+            } else {
+                setScrollRange("-69%")
+            }
+        }
+
+        updateScrollRange()
+        window.addEventListener("resize", updateScrollRange)
+        return () => window.removeEventListener("resize", updateScrollRange)
+    }, [])
+
+    const x = useTransform(scrollYProgress, [0, 1], ["0%", scrollRange])
 
     return (
         <section ref={targetRef} id="portfolio" className="relative h-[300vh] bg-background">
