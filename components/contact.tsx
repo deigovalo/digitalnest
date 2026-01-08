@@ -37,7 +37,7 @@ export function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold mb-1">Email</h3>
-                                    <p className="text-muted-foreground">hola@digitalnest.com</p>
+                                    <p className="text-muted-foreground">hola@digitalnezt.com</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">

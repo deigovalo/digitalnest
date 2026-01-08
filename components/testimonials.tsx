@@ -7,7 +7,7 @@ const testimonials = [
     {
         name: "Carlos Rodríguez",
         role: "CEO, TechStart",
-        content: "DigitalNest transformó completamente nuestra presencia en línea. Su atención al detalle y diseño innovador superaron nuestras expectativas.",
+        content: "DigitalNezt transformó completamente nuestra presencia en línea. Su atención al detalle y diseño innovador superaron nuestras expectativas.",
         image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2340&auto=format&fit=crop",
     },
     {

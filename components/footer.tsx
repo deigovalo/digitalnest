@@ -14,12 +14,12 @@ export function Footer() {
                             <div className="relative h-10 w-10">
                                 <Image
                                     src="/DIGITALNEST_LOGO.svg"
-                                    alt="DigitalNest Logo"
+                                    alt="DigitalNezt Logo"
                                     fill
                                     className="object-contain"
                                 />
                             </div>
-                            <span className="font-bold text-xl tracking-tight">DIGITALNEST</span>
+                            <span className="font-bold text-xl tracking-tight">DIGITALNEZT</span>
                         </Link>
                         <p className="text-muted-foreground text-sm">
                             Transformamos ideas en experiencias digitales excepcionales. Tu socio tecnológico de confianza.
@@ -105,7 +105,7 @@ export function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                                <span>contacto@digitalnest.com</span>
+                                <span>contacto@digitalnezt.com</span>
                             </li>
                         </ul>
                     </div>

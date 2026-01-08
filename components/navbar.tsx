@@ -20,12 +20,12 @@ const BrandLogo = () => (
         <div className="relative w-8 h-8 flex items-center justify-center">
             <Image
                 src="/DIGITALNEST_LOGO.svg"
-                alt="DigitalNest Logo"
+                alt="DigitalNezt Logo"
                 fill
                 className="object-contain"
             />
         </div>
-        <span>DIGITALNEST</span>
+        <span>DIGITALNEZT</span>
     </div>
 )
 
