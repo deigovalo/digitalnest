@@ -8,30 +8,30 @@ import { useRef, useState, useEffect } from "react"
 
 const projects = [
     {
-        title: "Landing Page Corporativa",
-        category: "Landing Page",
-        description: "Diseño minimalista y de alto rendimiento para empresa de consultoría.",
+        title: "Landing Pages Corporativas",
+        category: "Desarrollo Web",
+        description: "Diseñamos páginas de alto impacto optimizadas para convertir visitantes en clientes potenciales.",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
         tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     },
     {
-        title: "E-commerce de Moda",
-        category: "Página Web",
-        description: "Tienda online completa con pasarela de pagos y panel de administración.",
+        title: "E-commerce a Medida",
+        category: "Tiendas Online",
+        description: "Desarrollamos experiencias de compra completas, seguras y escalables para tu negocio.",
         image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=2370&auto=format&fit=crop",
         tags: ["React", "Node.js", "Stripe"],
     },
     {
-        title: "Dashboard Administrativo",
-        category: "Aplicación Web",
-        description: "Panel de control intuitivo para la gestión de datos y análisis en tiempo real.",
+        title: "Dashboards Administrativos",
+        category: "Aplicaciones Web",
+        description: "Creamos paneles de control intuitivos para la gestión de datos y visualización de métricas en tiempo real.",
         image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2370&auto=format&fit=crop",
         tags: ["Next.js", "TypeScript", "Recharts"],
     },
     {
-        title: "Plataforma Educativa",
-        category: "Sistema Web",
-        description: "Solución integral para la gestión académica y aprendizaje en línea.",
+        title: "Plataformas Educativas",
+        category: "Sistemas LMS",
+        description: "Implementamos entornos de aprendizaje digital robustos para instituciones y academias.",
         image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2367&auto=format&fit=crop",
         tags: ["Vue.js", "Firebase", "Tailwind"],
     },
@@ -70,9 +70,9 @@ export function Portfolio() {
                 <motion.div style={{ x }} className="flex gap-8 px-4 md:px-20">
                     {/* Intro Card */}
                     <div className="flex h-[70vh] w-[80vw] md:w-[40vw] shrink-0 flex-col justify-center p-8">
-                        <h2 className="text-4xl md:text-6xl font-bold mb-6">Nuestro Portafolio</h2>
+                        <h2 className="text-4xl md:text-6xl font-bold mb-6">Lo Que Creamos</h2>
                         <p className="text-xl text-muted-foreground">
-                            Explora nuestros proyectos más recientes. Desliza para ver más.
+                            Explora los proyectos que podemos realizar y las tecnologías que usamos.
                         </p>
                     </div>
 

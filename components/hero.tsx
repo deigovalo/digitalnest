@@ -45,8 +45,7 @@ export function Hero() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-lg md:text-xl text-gray-700 max-w-2xl"
                 >
-                    Desarrollamos soluciones web de alto impacto con las tecnologías más modernas.
-                    Next.js, React, TypeScript y Node.js para potenciar tu negocio.
+                    Desarrollamos soluciones web de alto impacto con las tecnologías más modernas para potenciar tu negocio.
                 </motion.p>
 
                 <motion.div
