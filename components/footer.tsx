@@ -25,7 +25,7 @@ export function Footer() {
                             Transformamos ideas en experiencias digitales excepcionales. Tu socio tecnológico de confianza.
                         </p>
                         <div className="flex gap-4">
-                            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Síguenos en Facebook">
+                            <Link href="https://www.facebook.com/profile.php?id=61586488774732" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Síguenos en Facebook">
                                 <Facebook className="w-5 h-5" />
                             </Link>
                             <Link href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Síguenos en Twitter">
@@ -95,13 +95,9 @@ export function Footer() {
                     <div>
                         <h3 className="font-bold mb-4">Contacto</h3>
                         <ul className="space-y-4 text-sm text-muted-foreground">
-                            <li className="flex items-start gap-3">
-                                <MapPin className="w-5 h-5 text-primary shrink-0" />
-                                <span>Av. Principal 123, Ciudad Tecnológica, CP 12345</span>
-                            </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                                <span>+1 234 567 890</span>
+                                <span>+51 974 488 606</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="w-5 h-5 text-primary shrink-0" />

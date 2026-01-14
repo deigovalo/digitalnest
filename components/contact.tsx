@@ -92,7 +92,7 @@ export function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold mb-1">Teléfono</h3>
-                                    <p className="text-muted-foreground">+51 999 999 999</p>
+                                    <p className="text-muted-foreground">+51 974 488 606</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
