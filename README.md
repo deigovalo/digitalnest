@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DigitalNest
 
-## Getting Started
+DigitalNest es un sitio web de agencia digital moderno y responsivo construido con Next.js 16, React 19 y TailwindCSS 4. Cuenta con un diseño premium con animaciones suaves, efectos de glassmorphism y un formulario de contacto totalmente funcional.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Library:** [React 19](https://react.dev/)
+- **Styling:** [TailwindCSS 4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Email:** [NodeMailer](https://nodemailer.com/)
+
+## ✨ Features
+
+- **Responsive Design:** Compatibilidad total con dispositivos móviles, tablets y escritorio.
+- **Modern UI:** Estética premium con glassmorphism, degradados y transiciones fluidas.
+- **Dynamic Sections:**
+  - **Hero:** Sección de aterrizaje atractiva con elementos animados.
+  - **Services:** Descripción detallada de los servicios digitales ofrecidos.
+  - **Portfolio:** Muestra de proyectos realizados con efectos al pasar el cursor.
+  - **Testimonials:** Comentarios de clientes satisfechos.
+  - **Team:** Presentación de los miembros de la agencia.
+  - **Contact:** Formulario funcional con validación e integración de correo.
+- **Performance:** Optimizado para velocidad y SEO.
+
+## 📂 Project Structure
+
+```
+digitalnest/
+├── app/              # Páginas del App Router de Next.js y rutas API
+├── components/       # Componentes UI reutilizables
+├── lib/              # Funciones de utilidad y lógica compartida
+├── public/           # Archivos estáticos (imágenes, iconos)
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Sigue estos pasos para configurar el proyecto localmente:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/deigovalo/digitalnest.git
+    cd digitalnest
+    ```
 
-## Learn More
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # o
+    yarn install
+    # o
+    pnpm install
+    # o
+    bun install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  **Open your browser:**
+    Navega a [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Build for Production
 
-## Deploy on Vercel
+Para crear una compilación optimizada para producción:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+Este proyecto está bajo la Licencia MIT.
