@@ -12,17 +12,10 @@ const team = [
         imagePosition: "object-center"
     },
     {
-        name: "Ronald",
-        role: "Desarrollador Frontend",
-        image: "/dev2.png",
-        bio: "Especialista en crear interfaces de usuario modernas, intuitivas y responsivas.",
-        imagePosition: "object-center"
-    },
-    {
         name: "Diego",
-        role: "Desarrollador Backend",
+        role: "Full Stack Front y Backend",
         image: "/dev3.png",
-        bio: "Ingeniero de sistemas enfocado en escalabilidad, seguridad y optimización de datos.",
+        bio: "Ingeniero de sistemas experto en desarrollo Full Stack, interfaces modernas y arquitectura escalable.",
         imagePosition: "object-top"
     },
 ]
@@ -52,7 +45,7 @@ export function Team() {
                     </motion.p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {team.map((member, index) => (
                         <motion.div
                             key={member.name}
